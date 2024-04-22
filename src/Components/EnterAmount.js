@@ -19,7 +19,7 @@ const EnterAmount = () => {
   const intl = useIntl();
 
   console.log(clientAmount)
-
+ 
 
   const timeFormatter = (time) => (
     japaniLocalization(intl.formatDate(time, {

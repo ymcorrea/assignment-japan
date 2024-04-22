@@ -15,7 +15,7 @@ const Header = () => {
     switch (pathname) {
       case "/enter-note":
         setHeaderTitle(`${clientName} : Enter Note`);
-        break;
+        break; 
       case "/top":
         setHeaderTitle("Top");
         break;

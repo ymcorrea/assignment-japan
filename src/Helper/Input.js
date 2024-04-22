@@ -9,7 +9,7 @@ const Input = ({
   preInput = "",
   type = "text",
   ...rest
-}) => {
+}) => { 
 
   const { disabled } = { ...rest };
 

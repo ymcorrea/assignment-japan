@@ -18,6 +18,6 @@ const ErrorPage = () => {
       </div>
     </BodyLayout>
   );
-};
+}; 
 
 export default ErrorPage;

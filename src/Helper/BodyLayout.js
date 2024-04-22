@@ -8,4 +8,4 @@ const BodyLayout = ({ children }) => {
   );
 };
 
-export default BodyLayout;
+export default BodyLayout;     

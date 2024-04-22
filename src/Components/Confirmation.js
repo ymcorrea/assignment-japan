@@ -14,7 +14,7 @@ const Confirmation = () => {
   const { loginTime, personalInfoTime, destinationEnterTime, clientName, dateTimeEnterTime, amountEnterTime, clientNote, noteEnterTime, clientGender, fromDestination, toDestination, clientDate, clientTime, clientAmount } = useRecoilValue(clientDataState);
 
   const intl = useIntl();
-
+   
   console.log(toDestination)
 
 

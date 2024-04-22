@@ -17,7 +17,7 @@ const DateTimeSelect = () => {
   const setClientDataState = useSetRecoilState(clientDataState);
   const navigate = useNavigate();
   const intl = useIntl()
-
+ 
   const timeFormatter = (time) => (
     japaniLocalization(intl.formatDate(time, {
       year: 'numeric',

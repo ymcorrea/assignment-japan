@@ -17,7 +17,7 @@ const PersonalInfo = () => {
   const setClientDataState = useSetRecoilState(clientDataState);
   const navigate = useNavigate();
   const intl = useIntl()
-
+ 
   const loggedinTime = japaniLocalization(intl.formatDate(loginTime, {
     year: 'numeric',
     hour: 'numeric',

@@ -15,7 +15,7 @@ const SuccessPage = () => {
     setClientDataState({})
     navigate('/top')
   }
-
+ 
   return (
     <BodyLayout>
       <div className="flex flex-col justify-between h-full">

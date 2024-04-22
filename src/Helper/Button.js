@@ -8,6 +8,6 @@ const Button = ({ title, ...rest }) => {
         {...rest}>{title}</button>
     </div>
   );
-};
+}; 
 
 export default Button;

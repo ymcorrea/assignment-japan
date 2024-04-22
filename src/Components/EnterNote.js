@@ -18,7 +18,7 @@ const EnterNote = () => {
   const intl = useIntl();
   const { register, handleSubmit } = useForm();
 
-
+ 
   const timeFormatter = (time) => (
     japaniLocalization(intl.formatDate(time, {
       year: 'numeric',

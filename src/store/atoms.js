@@ -14,7 +14,7 @@ const localStorageEffect = key => ({ setSelf, onSet }) => {
       : secureLocalStorage.setItem(key, JSON.stringify(newValue));
   });
 };
-
+ 
 export const clientDataState = atom({
   key: 'formState',
   default: {},

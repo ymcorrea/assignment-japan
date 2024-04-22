@@ -14,7 +14,7 @@ const TopPageContainer = () => {
 
   const handleMakeReservations = () => {
     navigate("/personal-info");
-  }
+  } 
 
   return (
     <BodyLayout>

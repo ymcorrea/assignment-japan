@@ -21,7 +21,7 @@ const DestinationSelect = () => {
 
   const navigate = useNavigate();
   const intl = useIntl()
-
+ 
 
   const timeFormatter = (time) => (
     japaniLocalization(intl.formatDate(time, {
